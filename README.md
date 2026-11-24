@@ -175,8 +175,3 @@ cd frontend && npm run lint && npm run build
 # Flutter static analysis & widget tests
 cd waiter_app && flutter analyze && flutter test
 ```
-
-(ملاحظة سريعة للمراجعة: ذكرت في الـ README دعم Redis وTypeScript وGitHub Actions
-CI/CD بناءً على طلبك؛ إذا لم تكن قد أنشأت ملف .github/workflows/ci.yml أو أضفت
-Redis وتعميم .tsx في المستودع بعد، يُفضّل إضافتها أو تعديل السطرين المذكورين قبل
-الـ Push حتى يتطابق الوصف 100% مع محتوى المستودع الفعلي).
