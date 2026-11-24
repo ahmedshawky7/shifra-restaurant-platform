@@ -114,8 +114,8 @@ restaurant-platform/
 ### 1. Run with Docker Compose (Production-Ready Setup)
 1. Clone the repository and create your `.env` file from the template:
    ```bash
-   git clone <your-repo-url>
-   cd restaurant-platform
+   git clone https://github.com/ahmedshawky7/shifra-restaurant-platform.git
+   cd shifra-restaurant-platform
    cp .env.example .env
    ```
 2. Edit `.env` with strong values for `MYSQL_ROOT_PASSWORD`, `JWT_SECRET` (Base64 >= 32 bytes), and `APP_SUPERADMIN_PASSWORD` (>= 8 chars in `prod`).
